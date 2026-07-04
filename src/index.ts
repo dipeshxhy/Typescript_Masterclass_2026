@@ -1,5 +1,6 @@
 // import './010_primitive_type';
 // import './011_null_undefined';
 // import './012_bigint';
-import './013_symbol';
-import './014_practice';
+// import './013_symbol';
+// import './014_practice';
+import './015_any_type'
