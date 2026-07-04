@@ -1,14 +1,7 @@
-console.log('Hello TS !!');
-const students = [
-  {
-    name: 'John',
-    score: 70,
-  },
-  {
-    name: 'Jane',
-    score: 80,
-  },
-];
-for (const std of students) {
-  console.log(`Student Name: ${std.name}, Score: ${std.score}`);
+function addNumber(a: number, b: number) {
+  return a + b;
 }
+console.log(addNumber(2, 3));
+// console.log(addNumber('text', 3));
+// console.log('text', 2);
+// console.log('text', 3);
