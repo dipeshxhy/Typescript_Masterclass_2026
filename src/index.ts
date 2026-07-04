@@ -5,4 +5,5 @@
 // import './014_practice';
 // import './015_any_type'
 // import './016_unknown_type';
-import './017_type_alias';
+// import './017_type_alias';
+import './019_union_type';
