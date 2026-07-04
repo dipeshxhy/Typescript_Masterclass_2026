@@ -1,0 +1,23 @@
+{
+  "name": "Typescript_Masterclass_2026",
+  "version": "1.0.0",
+  "description": "The complete guide to Typescript in 2026",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node ./dist/index.js\""
+  },
+  "keywords": [
+    "typescript",
+    "udemy",
+    "manik",
+    "cloudaffle"
+  ],
+  "author": "Dipesh Chaudhary",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.2",
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsc-watch": "^7.2.1",
+    "typescript": "^6.0.3"
+  }
+}
