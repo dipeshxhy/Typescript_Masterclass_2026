@@ -9,4 +9,5 @@
 // import './019_union_type';
 // import './023_practice';
 // import './034_enums';
-import './041_anonymous_fun';
+// import './041_anonymous_fun';
+import './044_rest_parameters';
