@@ -7,4 +7,5 @@
 // import './016_unknown_type';
 // import './017_type_alias';
 // import './019_union_type';
-import './023_practice';
+// import './023_practice';
+import './034_enums';
