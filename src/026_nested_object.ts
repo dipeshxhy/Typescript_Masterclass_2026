@@ -9,6 +9,7 @@ type Author = {
   name: string;
   age: number;
   email: string;
+  readonly type: 'human' | 'ai';
 };
 type Post = {
   title: string;
@@ -27,6 +28,7 @@ let post: Post = {
     name: 'John Doe',
     age: 30,
     email: 'john.doe@example.com',
+    type: 'human',
   },
   awards: {
     web: {
@@ -39,3 +41,24 @@ let post: Post = {
     },
   },
 };
+
+let post2: Post = {
+  title: 'Advanced TypeScript',
+  content: 'Learn advanced TypeScript concepts and best practices.',
+  date: new Date(),
+  category: 'programming',
+  author: {
+    name: 'Jane Smith',
+    age: 25,
+    email: 'jane.smith@example.com',
+    type: 'human',
+  },
+  awards: {
+    ts: {
+      name: 'Best TypeScript Developer',
+      date: new Date('2023-06-01'),
+    },
+  },
+};
+
+// post.author.type = 'ai'
