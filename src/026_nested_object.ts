@@ -1,3 +1,10 @@
+type AwardDetails = {
+  name: string;
+  date: Date;
+};
+type Awards = {
+  [key: string]: AwardDetails;
+};
 type Author = {
   name: string;
   age: number;
@@ -9,6 +16,7 @@ type Post = {
   date: Date;
   category: string;
   author: Author;
+  awards: Awards;
 };
 let post: Post = {
   title: 'TypeScript Basics',
@@ -19,5 +27,15 @@ let post: Post = {
     name: 'John Doe',
     age: 30,
     email: 'john.doe@example.com',
+  },
+  awards: {
+    web: {
+      name: 'Best Web Developer',
+      date: new Date('2022-01-01'),
+    },
+    web3: {
+      name: 'Best Web3 Developer',
+      date: new Date('2023-01-01'),
+    },
   },
 };
