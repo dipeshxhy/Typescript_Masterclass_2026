@@ -8,4 +8,5 @@
 // import './017_type_alias';
 // import './019_union_type';
 // import './023_practice';
-import './034_enums';
+// import './034_enums';
+import './041_anonymous_fun';
