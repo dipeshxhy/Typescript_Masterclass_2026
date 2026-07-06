@@ -18,4 +18,5 @@
 // import './064_practice_class';
 // import './066_shorthand_constructor';
 // import './067_more_control_class';
-import './068_mutators_setter';
+// import './068_mutators_setter';
+import './069_getter_get';
