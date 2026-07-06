@@ -12,4 +12,5 @@
 // import './041_anonymous_fun';
 // import './044_rest_parameters';
 // import './055_paramter_destructuring';
-import './056_function_overloading';
+// import './056_function_overloading';
+import './060_generics_constraints';
