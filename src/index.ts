@@ -14,4 +14,5 @@
 // import './055_paramter_destructuring';
 // import './056_function_overloading';
 // import './060_generics_constraints';
-import './062_generic_default';
+// import './062_generic_default';
+import './064_practice_class';
