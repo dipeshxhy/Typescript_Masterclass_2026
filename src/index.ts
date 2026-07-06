@@ -13,4 +13,5 @@
 // import './044_rest_parameters';
 // import './055_paramter_destructuring';
 // import './056_function_overloading';
-import './060_generics_constraints';
+// import './060_generics_constraints';
+import './062_generic_default';
