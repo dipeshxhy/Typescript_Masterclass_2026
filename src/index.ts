@@ -15,4 +15,7 @@
 // import './056_function_overloading';
 // import './060_generics_constraints';
 // import './062_generic_default';
-import './064_practice_class';
+// import './064_practice_class';
+// import './066_shorthand_constructor';
+// import './067_more_control_class';
+import './068_mutators_setter';
