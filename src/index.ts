@@ -22,4 +22,5 @@
 // import './069_getter_get';
 // import './070_static_member';
 // import './071_generics_use_case';
-import './072_mixins';
+// import './072_mixins';
+import './073_practice_class';
