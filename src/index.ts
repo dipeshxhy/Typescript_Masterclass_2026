@@ -19,4 +19,6 @@
 // import './066_shorthand_constructor';
 // import './067_more_control_class';
 // import './068_mutators_setter';
-import './069_getter_get';
+// import './069_getter_get';
+// import './070_static_member';
+import './071_generics_use_case';
